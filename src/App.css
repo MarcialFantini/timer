@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+  font-size: 66.66%;
+}
+
+.App{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(255px,1fr));
+  gap: 30px;
+  padding: 30px;
+}
