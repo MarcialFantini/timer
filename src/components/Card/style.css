@@ -33,3 +33,44 @@
 .dataCard h1{
     font-size: 2rem;
 }
+
+.btnStart{
+    position: absolute;
+
+    right: 10%;
+    bottom: 10%;
+
+    background: #4bcf83;
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    overflow: hidden;
+}
+
+.btnStart .select img{
+    width: 100%;
+    
+    
+}
+
+.select{
+    transition: all 1.2s;
+    display: flex;
+    flex-direction: row;
+    transform: translate(0px);
+}
+.activeSelect {
+    transform: translate(-40px);
+}

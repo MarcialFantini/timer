@@ -11,21 +11,27 @@ function App() {
     <div className="App">
       <Person></Person>
       <Card
+      item ="Work"
       color='#ff8a65'
       ></Card>
       <Card
+      item ="Play"
       color='#55c3e5'
       ></Card>
       <Card
+      item ="Study"
       color='#ff5e7c'
       ></Card>
       <Card
+      item ="Exercise"
       color='#4bcf83'
       ></Card>
       <Card
+      item ="Social"
       color='#7234cd'
       ></Card>
       <Card
+      item ="Self Care"
       color='#f1c65a'
       ></Card>
     </div>
